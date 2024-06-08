@@ -8,6 +8,7 @@ public class Task_2_Home {
         System.out.print("Введите температуру: ");
         int temperature = scanner.nextInt();
         if (-5 < temperature) {
+
             System.out.println("Warm");
         } else if (-5 >= temperature & temperature > -20) {
             System.out.println("Normal");
